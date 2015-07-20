@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/layout_background"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000">
+
+    <TextureView
+        android:id="@+id/texture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/start_recording_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:contentDescription="@string/cd_start_recording"
+        android:padding="@dimen/activity_vertical_margin"
+        android:src="@drawable/ic_videocam_white_24dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/stop_recording_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:contentDescription="@string/cd_stop_recording"
+        android:padding="@dimen/activity_vertical_margin"
+        android:src="@drawable/ic_videocam_off_white_24dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/take_picture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:contentDescription="@string/cd_take_picture"
+        android:padding="@dimen/activity_vertical_margin"
+        android:src="@drawable/ic_camera_alt_white_24dp"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/change_flash_mode_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toggle_picture_or_video_button"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/toggle_flash_mode"
+        android:padding="@dimen/activity_vertical_margin"
+        android:src="@drawable/ic_flash_auto_white_24dp"/>
+
+    <ImageView
+        android:id="@+id/toggle_picture_or_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toggle_camera_direction_button"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/toggle_video_or_picture"
+        android:padding="@dimen/activity_vertical_margin"
+        android:src="@drawable/ic_switch_camera_white_24dp"
+        />
+
+    <ImageView
+        android:id="@+id/toggle_camera_direction_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/cd_toggle_camera_direction"
+        android:padding="@dimen/activity_vertical_margin"
+        android:src="@drawable/ic_camera_front_white_24dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

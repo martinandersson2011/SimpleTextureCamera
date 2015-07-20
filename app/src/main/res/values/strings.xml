@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SimpleTextureCamera</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cd_toggle_camera_direction">Toggle camera direction</string>
+    <string name="toggle_video_or_picture">Toggle video or picture</string>
+    <string name="toggle_flash_mode">Toggle flash mode</string>
+    <string name="cd_take_picture">Take Picture</string>
+    <string name="cd_stop_recording">Stop recording</string>
+    <string name="cd_start_recording">Start recording</string>
+</resources>
