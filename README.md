@@ -1,7 +1,7 @@
 # SimpleTextureCamera
 Simple camera implementation using a TextureView to center crop preview. 
 
-* Toggle betwen front/back camera
+* Toggle between front/back camera
 * Toggle between picture and video
 * Flash off/on/auto
 * Pinch to zoom
